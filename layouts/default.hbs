@@ -3,26 +3,27 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-		{{> _meta}}
+<head>
 
-		<title>{{ title }}</title>
+	{{> _meta}}
 
-		{{> _fonts}}
+	<title>{{ title }}</title>
 
-		{{> _css-main}}
+	{{> _fonts}}
 
-		{{> _js-modernizr}}
+	{{> _css-main}}
 
-	</head>
+	{{> _js-modernizr}}
 
-		<body class="{{body-class}}">
+</head>
 
-			<div class="container">
-				{{ body }}
-			</div>
+<body class="{{body-class}}">
 
-			{{> _js-main}}
+	<div class="container">
+		{{ body }}
+	</div>
 
-		</body>
+	{{> _js-main}}
+
+</body>
 </html>
