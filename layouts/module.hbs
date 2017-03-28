@@ -10,11 +10,7 @@
 
 	<title>{{title}}</title>
 
-	<meta name="description" content="" />
-
 	<base href="../" />
-
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
 	{{> _fonts}}
 
@@ -24,6 +20,8 @@
 
 </head>
 <body>
+
+	{{> _svg }}
 
 	<div class="container">
 		{{#parseFixture 'default-content.json'}}
