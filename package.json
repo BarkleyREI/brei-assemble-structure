@@ -1,6 +1,6 @@
 {
   "name": "brei-assemble-structure",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Handlebar templates for BarkleyREI static websites",
   "scripts": {
     "test": "exit 0"
