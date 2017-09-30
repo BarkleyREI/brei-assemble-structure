@@ -1,9 +1,9 @@
 # brei-assemble-structure
 
-[![Version npm][version]](http://browsenpm.org/package/brei-sass-mixins)
-[![Build Status](https://travis-ci.org/BarkleyREI/brei-sass-mixins.svg?branch=master)](https://travis-ci.org/BarkleyREI/brei-sass-mixins)
+[![Version npm][version]](http://browsenpm.org/package/brei-assemble-structure)
+[![Build Status](https://travis-ci.org/BarkleyREI/brei-assemble-structure.svg?branch=master)](https://travis-ci.org/BarkleyREI/brei-assemble-structure)
 
-[version]: http://img.shields.io/npm/v/brei-sass-mixins.svg?style=flat-square
+[version]: http://img.shields.io/npm/v/brei-assemble-structure.svg?style=flat-square
 
 BREI Assemble.io project structure.
 
