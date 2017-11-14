@@ -1,0 +1,18 @@
+{
+  "name": "brei-assemble-structure",
+  "version": "1.1.4",
+  "description": "Handlebar templates for BarkleyREI static websites",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nessthehero/brei-assemble-structure.git"
+  },
+  "author": "Ian Moffitt <nessthehero@gmail.com> (http://www.ianmoffitt.co/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nessthehero/brei-assemble-structure/issues"
+  },
+  "homepage": "https://github.com/nessthehero/brei-assemble-structure#readme"
+}
