@@ -6,11 +6,13 @@ module: true
 
 <!-- module:global-header -->
 {{#parseFixture 'global-header.json'}}
-<header class="global-header" id="global-header">
+<header id="js-global-header" class="global-header">
 
 	<a href="" class="show-on-focus" name="global-header">Header</a>
 
 	Global Header
+
+	{{> primary-nav }}
 
 </header>
 {{/parseFixture}}
