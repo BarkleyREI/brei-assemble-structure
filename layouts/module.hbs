@@ -6,7 +6,7 @@
 
 	<title>{{title}}</title>
 
-	<base href="../" />
+	<base href="../"/>
 
 	{{> _fonts}}
 
@@ -20,9 +20,9 @@
 	{{> _svg }}
 
 	<div class="container">
-		{{#parseFixture 'default-content.json'}}
-			{{ body }}
-		{{/parseFixture}}
+
+		{{ body }}
+		
 	</div>
 
 	{{> _js-main}}
