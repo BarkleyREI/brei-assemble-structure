@@ -1,9 +1,9 @@
 {
 	"name": "brei-assemble-structure",
-	"version": "1.4.1",
+	"version": "2.0.0",
 	"description": "Handlebar templates for BarkleyREI static websites",
 	"scripts": {
-		"test": "exit 0"
+		"test": "mocha"
 	},
 	"repository": {
 		"type": "git",
@@ -29,5 +29,9 @@
 	"bugs": {
 		"url": "https://github.com/nessthehero/brei-assemble-structure/issues"
 	},
-	"homepage": "https://github.com/nessthehero/brei-assemble-structure#readme"
+	"homepage": "https://github.com/nessthehero/brei-assemble-structure#readme",
+	"devDependencies": {
+		"brei-util": "^1.0.1",
+		"mocha": "^6.0.2"
+	}
 }
