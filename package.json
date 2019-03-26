@@ -3,7 +3,8 @@
 	"version": "2.0.0",
 	"description": "Handlebar templates for BarkleyREI static websites",
 	"scripts": {
-		"test": "mocha"
+		"test": "mocha",
+		"postinstall": "npm test"
 	},
 	"repository": {
 		"type": "git",
