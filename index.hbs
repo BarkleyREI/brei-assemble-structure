@@ -6,18 +6,18 @@ layout: index.hbs
 
 <h2>Templates</h2>
 <ul class="zebra-striping">
-    {{#withSort template 'data.title'}}
-		{{#each this.pages }}
-			<li><a href="{{ replaceStr this.dest 'app' '' }}">{{ this.data.title }}</a></li>
-		{{/each}}
+	{{#withSort (items "pages") 'data.title'}}
+		{{#if this.data.title}}
+			<li><a href="{{formatIndexPageUrl this }}">{{ this.data.title }}</a></li>
+		{{/if}}
 	{{/withSort}}
 </ul>
 
 <h2>Modules</h2>
 <ul class="zebra-striping">
-    {{#withSort module 'data.title'}}
-		{{#each this.pages }}
-			<li><a href="{{ replaceStr this.dest 'app' '' }}">{{ this.data.title }}</a></li>
-		{{/each}}
+	{{#withSort (items "modules") 'data.title'}}
+		{{#if this.data.title}}
+			<li><a href="{{formatIndexModuleUrl this }}">{{ this.data.title }}</a></li>
+		{{/if}}
 	{{/withSort}}
 </ul>
