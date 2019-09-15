@@ -13,11 +13,11 @@ layout: index.hbs
 	{{/withSort}}
 </ul>
 
-<h2>Modules</h2>
+<h2>Components</h2>
 <ul class="zebra-striping">
-	{{#withSort (items "modules") 'data.title'}}
+	{{#withSort (items "organisms") 'data.title'}}
 		{{#if this.data.title}}
-			<li><a href="{{formatIndexModuleUrl this }}">{{ this.data.title }}</a></li>
+			<li><a href="{{formatIndexComponentUrl this }}">{{ this.data.title }}</a></li>
 		{{/if}}
 	{{/withSort}}
 </ul>

@@ -8,16 +8,21 @@ const u = require('util');
 const root = __dirname + '/..';
 
 let valid = [
-	{ '.github':
-		[
-			'CONTRIBUTING.md',
-			'ISSUE_TEMPLATE.md',
-			'PULL_REQUEST_TEMPLATE.md'
-		]
+	{
+		'.github':
+			[
+				'CONTRIBUTING.md',
+				'ISSUE_TEMPLATE.md',
+				'PULL_REQUEST_TEMPLATE.md'
+			]
 	},
-	'.gitignore',
 	'.travis.yml',
 	'README.md',
+	{
+		atoms: [
+			'logo.hbs'
+		]
+	},
 	{
 		fixtures: [
 			'default-content.json',
@@ -26,7 +31,11 @@ let valid = [
 			'masthead.json'
 		]
 	},
-	{ helpers: [ '.gitkeep' ] },
+	{
+		helpers: [
+			'.gitkeep'
+		]
+	},
 	'home-page.hbs',
 	{
 		includes: [
@@ -52,7 +61,13 @@ let valid = [
 		]
 	},
 	{
-		modules: [
+		molecules: [
+			'masthead.hbs',
+			'primary-nav.hbs'
+		]
+	},
+	{
+		organisms: [
 			'_global-footer.hbs',
 			'_global-header.hbs',
 			'_masthead.hbs'
@@ -60,19 +75,11 @@ let valid = [
 	},
 	'package.json',
 	{
-		partials: [
-			'logo.hbs',
-			'masthead.hbs',
-			'primary-nav.hbs'
-		]
-	},
-	{
 		test: [
 			'test.js'
 		]
 	}
 ];
-
 
 describe('brei-assemble-structure -- Verify file and folder structure', function () {
 
