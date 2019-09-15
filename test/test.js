@@ -53,11 +53,11 @@ let valid = [
 	'index.hbs',
 	{
 		layouts: [
+			'component.hbs',
 			'default.hbs',
 			'home.hbs',
 			'index.hbs',
-			'level.hbs',
-			'module.hbs'
+			'level.hbs'
 		]
 	},
 	{
