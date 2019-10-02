@@ -1,12 +1,14 @@
 ---
 title: "Global Header"
-layout: module.hbs
+layout: component.hbs
 module: true
 ---
 
 <!-- module:global-header -->
 {{#parseFixture 'global-header.json'}}
 <header id="js-global-header" class="global-header">
+
+	{{> logo }}
 
 	Global Header
 

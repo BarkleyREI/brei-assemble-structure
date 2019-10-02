@@ -4,7 +4,9 @@
 
 	{{> _meta}}
 
-	<title>{{ title }}</title>
+	<title>{{title}}</title>
+
+	<base href="../"/>
 
 	{{> _fonts}}
 
@@ -13,26 +15,17 @@
 	{{> _js-modernizr}}
 
 </head>
-
-<body class="{{body-class}}">
+<body>
 
 	{{> _svg }}
 
-	{{> _access-nav }}
-
 	<div class="container">
 
-		{{> _global-header }}
-
 		{% body %}
-
-		{{> _global-footer }}
 
 	</div>
 
 	{{> _js-main}}
-
-	{{> _js-home}}
 
 </body>
 </html>
