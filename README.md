@@ -1,7 +1,7 @@
 # brei-assemble-structure
 
 [![Version npm][version]](http://browsenpm.org/package/brei-assemble-structure)
-[![Build Status](https://travis-ci.org/BarkleyREI/brei-assemble-structure.svg?branch=master)](https://travis-ci.org/BarkleyREI/brei-assemble-structure)
+[![Build Status](https://travis-ci.org/BarkleyREI/brei-assemble-structure.svg?branch=master)](https://travis-ci.org/BarkleyREI/brei-assemble-structure) [![Greenkeeper badge](https://badges.greenkeeper.io/BarkleyREI/brei-assemble-structure.svg)](https://greenkeeper.io/)
 
 [version]: http://img.shields.io/npm/v/brei-assemble-structure.svg?style=flat-square
 
