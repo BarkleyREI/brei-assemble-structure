@@ -33,6 +33,6 @@
 	"homepage": "https://github.com/nessthehero/brei-assemble-structure#readme",
 	"devDependencies": {
 		"brei-util": "^1.0.1",
-		"mocha": "~6.2.2"
+		"mocha": "~7.1.0"
 	}
 }
