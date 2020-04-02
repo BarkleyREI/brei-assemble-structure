@@ -1,7 +1,7 @@
-<!-- {{!
+{{! <!--
 This is an example of using Organisms and Molecules together to get a flexible component.
 
-We arrive here either from _masthead.hbs, or from any template that needs to display this partial in a unique manner.
+We arrive here either from _masthead.hbs, or from any template that needs to display this molecule in a unique manner.
 
 The context passed to this molecule should match what exists in masthead.json under fixtures.
 
@@ -49,7 +49,8 @@ template2.hbs (This will render the organism version of the masthead)
 {{!
 {{! 	</main>
 
-}} -->
+--> }}
+<!-- molecule:masthead -->
 <figure class="masthead">
 
 	<div class="image" style="background-image: url('{{img}}');"></div>
@@ -59,3 +60,4 @@ template2.hbs (This will render the organism version of the masthead)
 	</figcaption>
 
 </figure>
+<!-- end molecule:masthead -->
