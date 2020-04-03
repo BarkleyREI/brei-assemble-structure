@@ -8,7 +8,11 @@
 
 	{{> _fonts}}
 
-	{{> _css-main}}
+	{{#if styles}}
+		{{#each styles}}
+			{{> (putInclude 'css' this) }}
+		{{/each}}
+	{{/if}}
 
 	{{> _js-modernizr}}
 
@@ -30,9 +34,11 @@
 
 	</div>
 
-	{{> _js-vendor}}
-
-	{{> _js-main}}
+	{{#if scripts}}
+		{{#each scripts}}
+			{{> (putInclude 'js' this) }}
+		{{/each}}
+	{{/if}}
 
 </body>
 </html>
